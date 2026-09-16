@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "eval": "tsx evals/eval.ts"
+    "eval": "tsx evals/eval.ts",
+    "probe:plan": "tsx evals/probe-models.ts",
+    "probe:review": "tsx evals/probe-reviewer.ts",
+    "probe:search": "tsx evals/probe-search.ts"
   },
   "dependencies": {
     "@ai-sdk/openai": "^4.0.53",
